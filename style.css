@@ -4,6 +4,7 @@
   --button-color: #00fff6;
   --second-color: #050f1a;
   --text-color: #00fff6;
+  --delay: 600ms;
 }
 
 
@@ -14,9 +15,10 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100vh;
   background-color: var(--second-color);
   font-family: "Questrial", Impact, sans-serif;
+  overflow: hidden;
 }
 
 
@@ -39,7 +41,7 @@ a:hover {
   background: var(--button-color);
   border-radius: 3px;
   box-shadow: 0 0 10px var(--button-color), 0 0 40px var(--button-color), 0 0 80px var(--button-color);
-  transition-delay: 600ms;
+  transition-delay: var(--delay);
 }
 
 

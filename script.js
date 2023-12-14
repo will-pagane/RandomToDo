@@ -23,11 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!foiClicado) {
       document.documentElement.style.setProperty('--text-color', '#050f1a');
+      document.documentElement.style.setProperty('--delay', '0ms');
       botao.classList.add('button-hover-final');
       foiClicado = true;
     }
 
-    // Inclui "Mario Kart" nas opções se o switch estiver ativo
     let opcoesDeEstudo = marioKartSwitch.checked ? [...opcoesDeEstudoBase, "Mario Kart", "Mario Kart", "Mario Kart"] : [...opcoesDeEstudoBase];
 
     let novasOpcoes = ultimaOpcao ? opcoesDeEstudo.filter(opcao => opcao !== ultimaOpcao) : opcoesDeEstudo;
