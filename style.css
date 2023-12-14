@@ -206,3 +206,12 @@ label {
 .size-compensator {
   width: 30px;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --button-color: #00fff6;
+    --second-color: #050f1a;
+    --text-color: #00fff6;
+  }
+}
