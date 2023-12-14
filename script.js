@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
   let ultimaOpcao = "";
   let ultimaCor = "";
 
+  botao.addEventListener('transitionend', () => {
+    if (!foiClicado) {
+      document.documentElement.style.setProperty('--text-color', '#050f1a');
+    }
+  });
+
   botao.addEventListener('click', (event) => {
     event.preventDefault();
 
@@ -46,11 +52,5 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty('--button-color', novaCor);
       }, 300);
     });
-  });
-
-  botao.addEventListener('transitionend', () => {
-    if (!foiClicado) {
-      document.documentElement.style.setProperty('--text-color', '#050f1a');
-    }
   });
 });
