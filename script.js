@@ -6,10 +6,11 @@ document.addEventListener('DOMContentLoaded', () => {
   ];
 
   const coresDoBotao = [
-    "#50C878", // Verde Esmeralda
+    "#A6E22E", // Verde Esmeralda
     "#9966CC", // Roxo Ametista
     "#FF7F50", // Laranja Coral
-    "#FF69B4"  // Rosa Choque
+    "#FF69B4", // Rosa Choque
+    "#FFFF33", // Amarelo Vibrante
   ];
 
   const marioKartSwitch = document.getElementById('marioKartSwitch');
