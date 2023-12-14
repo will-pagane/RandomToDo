@@ -11,14 +11,14 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 30vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
   background-color: var(--second-color);
   font-family: "Questrial", Impact, sans-serif;
+  text-align: center;
   overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -214,4 +214,25 @@ label {
     --second-color: #050f1a;
     --text-color: #00fff6;
   }
+}
+
+
+.button2 {
+  margin-top: 100px;
+  max-width: 300px;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+
+.button2 a {
+  color: var(--button-color);
 }
