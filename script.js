@@ -1,9 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
   const opcoesDeEstudoBase = [
+    "Inteligência Artificial Aplicada",
     "Programação Rocketseat",
     "Programação Low Code",
     "Finclass",
-    "Ler um livro"
+    "Ler um livro",
+    "Projeto HighStakes",
+    "Projeto Spotify Downloader"
   ];
 
   const coresDoBotao = [
